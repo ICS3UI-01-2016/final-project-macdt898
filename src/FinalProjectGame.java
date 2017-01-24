@@ -54,7 +54,7 @@ public class FinalProjectGame extends JComponent implements KeyListener{
     // rocks
     Rectangle[] toprocks = new Rectangle [5];
     Rectangle[] bottomrocks = new Rectangle[5];
-   
+    boolean[] passedrock = new boolean[5];
     // the height of a rock
     int rockheight = HEIGHT - 25;
     // the width of a single rock
